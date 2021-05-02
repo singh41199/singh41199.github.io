@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monu Fitness - Best gym in Delhi !</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap" rel="stylesheet">
+<style>
+    
+    body {
+
+        margin: 0px;
+        padding: 0px;
+        background: url('bg.jpg');
+        color: white;
+        background-position-x: -170px;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .left {
+        /* border: 2px solid yellow; */
+        margin: 6px;
+        display: inline-block;
+        position: absolute;
+        top: 16px;
+        left: 37px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .left div {
+        line-height: 6px;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .left img {
+        width: 60px;
+        filter: invert(100%);
+
+    }
+
+    .mid {
+        display: block;
+        width: 54%;
+        margin: 26px auto;
+        /* border: 2px solid yellow; */
+
+
+    }
+
+    .right {
+        /* border: 2px solid yellow; */
+        margin: 4px;
+        display: inline-block;
+        position: absolute;
+        top: 41px;
+        right: 30px;
+    }
+
+    .navBar {
+        display: inline-block;
+
+    }
+
+    .navBar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navBar li a {
+        color: white;
+        text-decoration: none;
+        padding: 12px 17px;
+    }
+
+    .navBar li a:hover,
+    .navBar li a.active {
+        text-decoration: underline;
+        color: #989898;
+    }
+
+    .btn {
+        margin: 1px 6px;
+        background-color: black;
+        color: white;
+        padding: 2px 7px;
+        border: 1px solid white;
+        border-radius: 9px;
+        cursor: pointer;
+        font-size: 13px;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .btn:hover {
+        background-color: rgb(46, 44, 44);
+    }
+
+    .container {
+        border: 2px solid white;
+        border-radius: 24px;
+        margin: 73px 55px;
+        padding: 64px;
+        width: 44%;
+        display: block;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 3px;
+        margin: 6px auto;
+        border: 2px solid black;
+        font-size: 21px;
+        border-radius: 8px;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .container .btn {
+        display: block;
+        width: 408px;
+        margin: 13px auto;
+        padding: 3px;
+        font-size: 15px;
+        border-radius: 7px;
+    }
+
+    input:focus {
+        outline: none !important;
+        border-color: #719ECE;
+        box-shadow: 0 0 10px #719ECE;
+    }
+
+    textarea:focus {
+        outline: none !important;
+        border-color: #719ECE;
+        box-shadow: 0 0 10px #719ECE;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.png" alt="">
+            <div>Monu Fitness </div>
+        </div>
+        <div class="mid">
+            <ul class="navBar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button><button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Delhi now !</h1>
+        <form action="noaction.php">
+            <div class="form-group"><input type="text" name="" placeholder="Enter Your Name"></div>
+            <div class="form-group"><input type="text" name="" placeholder="Enter Your Age"></div>
+            <div class="form-group"><input type="text" name="" placeholder="Enter Your Gender"></div>
+            <div class="form-group"><input type="text" name="" placeholder="Enter Your Locality"></div>
+        </form>
+        <button class="btn">Submit</button>
+    </div>
+</body>
+
+</html>
